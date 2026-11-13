@@ -162,8 +162,8 @@ function initCityMap() {
   }).setView([17.4150, 78.4450], 12);
 
   // Modern CartoDB Dark Matter / Positron tiles
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 19
   }).addTo(mapInstance);
 
